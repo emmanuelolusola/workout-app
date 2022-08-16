@@ -55,6 +55,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         fontWeight="bold"
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb="46px"
+        color="#fff"
       >
         Showing Results
       </Typography>
@@ -68,11 +69,16 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
           <ExerciseCard key={idx} exercise={exercise} />
         ))}
       </Stack>
-      <Stack sx={{ mt: { lg: "114px", xs: "70px" } }} alignItems="center">
+      <Stack
+        sx={{ mt: { lg: "114px", xs: "70px" } }}
+        alignItems="center"
+        bgcolor="#fff"
+        padding="20px 0"
+      >
         {exercises.length > 9 && (
           <Pagination
-            color="standard"
-            shape="rounded"
+            color="primary"
+            variant="outlined"
             defaultPage={1}
             count={Math.ceil(exercises.length / exercisesPerPage)}
             page={currentPage}

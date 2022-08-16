@@ -50,6 +50,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb="49px"
         textAlign="center"
+        color="#fff"
       >
         Awesome Exercises You <br /> Should Know
       </Typography>
@@ -60,7 +61,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             input: { fontWeight: "700", border: "none", borderRadius: "4px" },
             width: { lg: "1170px", xs: "350px" },
             backgroundColor: "#fff",
-            borderRadius: "40px",
+            borderRadius: "20px",
           }}
           value={search}
           onChange={(e) => setSearch(e.target.value.toLowerCase())}
@@ -70,7 +71,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         <Button
           className="search-btn"
           sx={{
-            bgcolor: "#FF2625",
+            bgcolor: "#0f071e",
             color: "#fff",
             textTransform: "none",
             width: { lg: "173px", xs: "80px" },
@@ -78,6 +79,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             position: "absolute",
             right: "0px",
             fontSize: { lg: "20px", xs: "14px" },
+            border: "2px solid #fff",
           }}
           onClick={handleSearch}
         >

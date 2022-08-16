@@ -9,11 +9,11 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
     <Typography
       sx={{ fontSize: { lg: "44px", xs: "25px" }, ml: "20px" }}
       fontWeight={700}
-      color="#000"
+      color="#fff"
       mb="33px"
     >
       Similar{" "}
-      <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
+      <span style={{ color: "#fff", textTransform: "capitalize" }}>
         Target Muscle
       </span>{" "}
       exercises
@@ -32,11 +32,11 @@ const SimilarExercises = ({ targetMuscleExercises, equipmentExercises }) => (
         mt: { lg: "100px", xs: "60px" },
       }}
       fontWeight={700}
-      color="#000"
+      color="#fff"
       mb="33px"
     >
       Similar{" "}
-      <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
+      <span style={{ color: "#fff", textTransform: "capitalize" }}>
         Equipment
       </span>{" "}
       exercises

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
 
-import Logo from "../assets/images/Logo.png";
+import Logo from "../assets/images/Logo.svg";
 
 const Navbar = () => (
   <Stack
@@ -19,7 +19,7 @@ const Navbar = () => (
       <img
         src={Logo}
         alt="logo"
-        style={{ width: "48px", height: "48px", margin: "0px 20px" }}
+        style={{ width: "auto", height: "48px", margin: "20px 20px 0 20px" }}
       />
     </Link>
     <Stack
@@ -28,18 +28,19 @@ const Navbar = () => (
       fontFamily="Alegreya"
       fontSize="24px"
       alignItems="flex-end"
+      paddingBottom="10px"
     >
       <Link
         to="/"
         style={{
           textDecoration: "none",
-          color: "#3A1212",
-          borderBottom: "3px solid #FF2625",
+          color: "#fff",
+          borderBottom: "3px solid #fff",
         }}
       >
         Home
       </Link>
-      <a href="#exercises" style={{ textDecoration: "none", color: "#3A1212" }}>
+      <a href="#exercises" style={{ textDecoration: "none", color: "#fff" }}>
         Exercises
       </a>
     </Stack>

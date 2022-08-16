@@ -34,13 +34,11 @@ const Detail = ({ exerciseDetail }) => {
           sx={{ fontSize: { lg: "64px", xs: "30px" } }}
           fontWeight={700}
           textTransform="capitalize"
+          color="#fff"
         >
           {name}
         </Typography>
-        <Typography
-          sx={{ fontSize: { lg: "24px", xs: "18px" } }}
-          color="#4F4C4C"
-        >
+        <Typography sx={{ fontSize: { lg: "24px", xs: "18px" } }} color="#fff">
           Exercises keep you strong.{" "}
           <span style={{ textTransform: "capitalize" }}>{name}</span> bup is one
           of the best <br /> exercises to target your {target}. It will help you
@@ -50,7 +48,7 @@ const Detail = ({ exerciseDetail }) => {
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
             <Button
               sx={{
-                background: "#FFF2DB",
+                background: "#fff",
                 borderRadius: "50%",
                 width: "100px",
                 height: "100px",
@@ -65,6 +63,7 @@ const Detail = ({ exerciseDetail }) => {
             <Typography
               textTransform="capitalize"
               sx={{ fontSize: { lg: "30px", xs: "20px" } }}
+              color="#fff"
             >
               {item.name}
             </Typography>

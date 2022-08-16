@@ -11,8 +11,8 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     sx={
       bodyPart === item
         ? {
-            borderTop: "4px solid #FF2625",
-            background: "#fff",
+            borderTop: "4px solid #FFF",
+            background: "rgba(255, 255, 255, 0.2)",
             borderBottomLeftRadius: "20px",
             width: "270px",
             height: "282px",
@@ -20,7 +20,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
             gap: "47px",
           }
         : {
-            background: "#fff",
+            background: "rgba(255, 255, 255, 0.2)",
             borderBottomLeftRadius: "20px",
             width: "270px",
             height: "282px",
@@ -38,7 +38,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
       fontSize="24px"
       fontWeight="bold"
       fontFamily="Alegreya"
-      color="#3A1212"
+      color="#fff"
       textTransform="capitalize"
     >
       {" "}
