@@ -1,4 +1,4 @@
-![alt text](http://url/to/getfitimage.png)
+![alt text](https://github.com/emmanuelolusola/workout-app/blob/getfitimage.png?raw=true)
 
 # Getting Started with Create React App
 
